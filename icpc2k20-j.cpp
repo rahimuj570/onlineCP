@@ -5,10 +5,10 @@
 
 int main(){
 fast;
-	// #ifndef ONLINE_JUDGE
-	// freopen("inputf.in","r",stdin);
-	// freopen("outputf.out","w",stdout);
-	// #endif
+	#ifndef ONLINE_JUDGE
+	freopen("inputf.in","r",stdin);
+	freopen("outputf.out","w",stdout);
+	#endif
 	//////////////////////////////////
 	int n;
 	cin>>n;
