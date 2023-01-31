@@ -10,9 +10,12 @@ int main(){
 	// freopen("outputf.out","w",stdout);
 	// #endif
 	//////////////////////////////////
-/*string s;
+/*
+string s;
 int c=0;
 while(getline(cin,s))for(int i=0; i<s.length(); i++)if(s[i]=='A' || s[i]=='a')c++;
-from the above program, there are 97 A*/
+from the above program, there are 97 A
+link: (https://algo.codemarshal.org/contests/icpc-2014-pre/problems/A)
+*/
 cout<<97<<'\n';
 return 0;}
