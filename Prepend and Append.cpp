@@ -12,19 +12,23 @@ fast;
 	#endif
 	//////////////////////////////
 
+int t,n=4,stop;
 string s;
-int n,n2;
-cin>>n;
-for (int i = 0; i < n; ++i)
-{	int j=0;
-	cin>>n2;
+// cin>>t;
+// for (int i = 0; i < t; ++i)
+// {
+// 	cin>>n;
+	n/=2;
 	cin>>s;
-	while(s.size()>1){
-		if(s[0]==s[s.size()-1]){break;}
-		else{s.erase((s.size()-1),1);s.erase(j,1);}
+	while(n<s.size()){
+	set<char>set1(s.begin()+n, s.end());
+	set<char>set2(s.begin(), s.end()-n);
+	set<char>set3(s.begin(), s.end()-j);
+	set<char>set4(s.begin()+j, s.end());
+// for(auto a:set2)cout<<a<<endl;
+	// cout<<s;
 	}
-	cout<<s.size()<<'\n';
-}
+// }
 
 
 
