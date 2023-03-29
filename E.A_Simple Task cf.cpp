@@ -10,11 +10,11 @@ void accs(string &s,int i,int j){
         start+=(i);
         end+=(j);
         multiset<char>st;
-        for(start; start!=end+1; start++){
+        for(&start; start!=end+1; start++){
                 st.insert(s[i]);
                 i++;
         }
-        for(char it:st){s[temp]=it;temp++;}
+        for(auto &it:st){s[temp]=it;temp++;}
 }
 
 void decs(string &s,int i,int j){
@@ -24,7 +24,7 @@ void decs(string &s,int i,int j){
         start+=(i);
         end+=(j);
         multiset<char>st;
-        for(start; start!=end+1; start++){
+        for(&start; start!=end+1; start++){
                 st.insert(s[i]);
                 i++;
         }
