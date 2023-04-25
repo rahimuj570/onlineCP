@@ -1,6 +1,7 @@
 *exe
 *in
 *out
+*c++
 /test.cpp
 /test.py
 /__pycache__
